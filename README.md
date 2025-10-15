@@ -18,5 +18,5 @@ Each script is a small, self-contained experiment you can run locally with **Pyt
  
 ## Setup
 1. Download the script.
-2. Install the requirements: `pip install -r SCRIPT_NAME.txt`.
+2. Install the requirements: `pip install -r SCRIPT_NAME_requirements.txt`.
 3. You also need Ollama installed locally and a model like `llama3.2:3b-instruct-q4_K_M` pulled.
