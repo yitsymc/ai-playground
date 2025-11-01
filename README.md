@@ -15,6 +15,12 @@ Each script is a small, self-contained experiment you can run locally with **Pyt
   * Uses LangChain’s **Tool + ReAct** agent architecture.
   * Lets the model reason over the retrieved data.  
   * Runs **fully locally** (no external API costs).
+
+- **Vendor Evaluation Assistant (`vendor_agent_llama_langchain_memory.py`)**:
+This LangChain-powered conversational agent uses Ollama (Llama 3.2) and LangChain Memory to help analyze supplier reliability — simulating how an Odoo vendor assistant could assist procurement teams.
+  * Evaluates vendor performance using on-time rate, satisfaction, quality, and delivery metrics.
+  * Performs fuzzy name matching, so partial or misspelled vendor names still work.
+  * Uses `ConversationBufferMemory` to maintain context across turns (e.g., follow-up questions about the same vendor).
  
 ## Setup
 1. Download the script.
